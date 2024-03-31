@@ -70,6 +70,16 @@ $dt[C] = 0.3384*P[W] - 0.7646$ where $dt = tpwr - tamb$
 
 Average measured $dt/P = 0.32 [C/W]$
 
+From resistor datasheet it is possible to find maximum element temperature for which resistor behaves according to original specification.
+
+<p align="center">
+<img src="./sim/Resistor_Derating 2024-03-31 224533.png" width="700" height="400"/>
+</p>
+
+such temperature $tmax$ is equal to 100C.
+
+
+
 ## References
 
 [1] "???"
