@@ -50,7 +50,7 @@ Negligable amount of inductance visible in the measurements. For frequencies abo
 
 ### Measurement Setup
 
-Simple digital thermometer was used to measure actual surface temperatures of the resistor: $tamb$ - resistor temperature when no power is applied to it and $tpwr$ - resistor temperature when given power is applied.
+Simple digital thermometer was used to measure actual surface temperatures of the resistor: $tamb$ - resistor temperature when no power is applied to it and $tpwr$ - resistor temperature when given power is applied. The test setup used can be seen below:
 
 <p align="center">
 <img src="./img/Dummy_Load_temp_measurement_IMG_1172.jpg" width="600" height="400"/>
