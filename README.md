@@ -16,13 +16,13 @@ This is rather mechanical then electronics project. The main challange was to en
 
 ## Performance Measurements
 
-###VSWR Measurements for the frequency range of 10kHz-500MHz:
+### VSWR Measurements for the frequency range of 10kHz-500MHz:
 
 <p align="center">
 <img src="./meas/SVR_Dummy_Load_2024-03-31 12-53-41.png" width="400" height="400"/>
 </p>
 
-###Smith Chart
+### Smith Chart
 Negligable amount of inductance visible in the measurements. For frequencies above 2m band (above 146MHz), effects of leakage capacitance starts to show. Acording to the manufacturer leakage capacitance value is about 3pF.
 
 <p align="center">
