@@ -46,14 +46,6 @@ Negligable amount of inductance visible in the measurements. For frequencies abo
 <img src="./meas/Smitch_Chart_Dummy_Load_2024-03-31 12-56-07.png" width="600" height="400"/>
 </p>
 
-The first measurement aimed to establish the temperature increase in Celcius per Watt of applied power. For each measurement point (power value), transmitter has been activated for the same duration of time $tdah$=15sec. Results has been summarized below:
-
-<p align="center">
-<img src="./sim/Temperature_vs_Power_Time 2024-03-31 215705.png" width="700" height="400"/>
-</p>
-
-
-
 ## Characteristics Evaluation
 
 ### Measurement Setup
@@ -64,6 +56,19 @@ Simple digital thermometer was used to measure actual surface temperatures of th
 <img src="./img/Dummy_Load_temp_measurement_IMG_1172.jpg" width="600" height="400"/>
 </p>
 
+### Test 1: Measurement of temperature increase in Celcius per Watt of applied power
+
+The first measurement aimed to establish the temperature increase in Celcius per Watt of applied power $dt[C]/P[W]$. For each measurement point (power value), transmitter has been activated for the same duration of time $tdah$=15sec. Results has been summarized below:
+
+<p align="center">
+<img src="./sim/Temperature_vs_Power_Time 2024-03-31 215705.png" width="700" height="400"/>
+</p>
+
+From obtained results it is clear that relation between temperature increase in Celcius per Watt of applied power is linear within applied power range of 5 to 100W and can be described by the following formula:
+
+$dt[C] = 0.3384*P[W] - 0.7646$ where $dt = tpwr - tamb$
+
+Average measured $dt/P = 0.32 [C/W]$
 
 ## References
 
