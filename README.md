@@ -40,21 +40,23 @@ This curve shows theoretically calculated time limits within, which dummy load c
 
 
 ### Smith Chart
-Negligable amount of inductance visible in the measurements. For frequencies above 2m band (above 146MHz), effects of leakage capacitance starts to show. Acording to the manufacturer leakage capacitance value is about 3pF.
+Negligable amount of inductance visible in the measurements. For frequencies above 2m band (above 146MHz), effects of leakage capacitance starts to show. Acording to the manufacturer, leakage capacitance value is about 3pF.
 
 <p align="center">
 <img src="./meas/Smitch_Chart_Dummy_Load_2024-03-31 12-56-07.png" width="600" height="400"/>
 </p>
 
-## Characteristics Calculations
+## Characteristics Evaluation
 
+### Measurement Setup
 
+Simple digital thermometer was used to measure actual surface temperatures of the resistor: $tamb$ - resistor temperature when no power is applied to it and $tpwr$ - resistor temperature when given power is applied.
 
-## Circuit Simulations
+<p align="center">
+<img src="./img/Dummy_Load_temp_measurement_IMG_1172.jpg" width="600" height="400"/>
+</p>
 
 
 ## References
 
-[1] "Simple RF-Power Measurement", QST June 2001 by Wes Hayward W7ZOI and Bob Larkin W7PUA
-
-[2] "Ten Essential Skills for Electrical Engineers" by Barry L. Dorr, Willey 2014, Chapter: "How to Design Resistive Circuits"
+[1] "???"
