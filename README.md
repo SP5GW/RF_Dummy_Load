@@ -80,7 +80,7 @@ such temperature $tmax$ is equal to 100C.
 
 Based on such information we can calculate maximum power dummy load can sustain for 15sec in given ambient temperature $tamb$ (in our case 26.6C):
 
-$dt = tmax - tamb = 100 - 26.6 = 73.5C$
+(2) $dt = tmax - tamb = 100 - 26.6 = 73.5C$
 
 using (1) we get: 
 
@@ -96,6 +96,25 @@ The second measurement aimed to establish the temperature increase in Celcius pe
 <p align="center">
 <img src="./sim/Temperature_vs_Dah_Time 2024-03-31 215705.png" width="700" height="400"/>
 </p>
+
+From obtained results it is clear that relation between temperature increase in Celcius per time in seconds during, which 100W of power was applied to dummy load is linear within applied $tdah$ time intervals of  5 to 20 seconds and can be described by the following formula:
+
+(3) $dt[C] = 2.216 * tdah[sec] + 2.55$ where $dt = tpwr - tamb$
+
+Average measured $dt/tdah = 2.37 [C/sec]$
+
+From (2) we know that maximum allowed resistor temperature increse is 73.5C for ambient temperature of 26.6C.
+
+Maximum allowed time 100W power can be applied to our dummy load can be calculated as $73.5 / 2.37 = 31sec$ similar result can be also obtained using formula (3).
+
+### Calculation of Dummy Load Derating Curve
+
+From Test 2, we know that relation between temperature increse and time during which given power is applied is linear. This fact combined with calculated temperature increase per Watt of applied power for different power levels $dt/P$ in Test 1, allows us to calculate derating curve as seen below:
+
+<p align="center">
+<img src="./sim/Derating_Full 2024-03-31 220123.png" width="700" height="400"/>
+</p>
+
 
 ## References
 
