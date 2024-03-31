@@ -46,6 +46,14 @@ Negligable amount of inductance visible in the measurements. For frequencies abo
 <img src="./meas/Smitch_Chart_Dummy_Load_2024-03-31 12-56-07.png" width="600" height="400"/>
 </p>
 
+The first measurement aimed to establish the temperature increase in Celcius per Watt of applied power. For each measurement point (power value), transmitter has been activated for the same duration of time $tdah$=15sec. Results has been summarized below:
+
+<p align="center">
+<img src="./sim/Temperature_vs_Power_Time 2024-03-31 215705.png" width="700" height="400"/>
+</p>
+
+
+
 ## Characteristics Evaluation
 
 ### Measurement Setup
