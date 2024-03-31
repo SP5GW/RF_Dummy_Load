@@ -11,10 +11,25 @@
 ## Design Overview
 
 Presented RF Dummy Load shows aceptable SWR level (below 1.5) in the frequency range up to 500MHz. It is capable of withstanding up to 100W of power applied over up to 30sec time interval in ambient temperature of 26C. Theoretically calculated limit was in fact about 200W in ambient temperature of 26C, but this case was never verified in practice.
-Design is based on inductance less RFP-250 resistor manufactured by Anaren (or similar).
+Design is based on inductance less RFP-250 resistor manufactured by Anaren (or similar such as RFR 50-250).
 This is rather mechanical then electronics project. The main challange was to ensure proper heat dicipation and keeping connections between resistor and UC1 socket as short as possible.
 
+## Performance Measurements
 
+VSWR Measurements in the frequency range 10kHz-500MHz:
+
+<p align="center">
+<img src="./meas/SVR_Dummy_Load_2024-03-31 12-53-41.png" width="400" height="400"/>
+</p>
+
+Smith Chart
+Negligable amount of inductance visible in the measurements. For frequencies above 2m band (above 146MHz), effects of leakage capacitance starts to show. Acording to the manufacturer leakage capacitance value is about 3pF.
+
+<p align="center">
+<img src="./meas/Smitch_Chart_Dummy_Load_2024-03-31 12-56-07.png" width="400" height="400"/>
+</p>
+
+## Characteristics Calculations
 
 ## Circuit Simulations
 
