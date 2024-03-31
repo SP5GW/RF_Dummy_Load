@@ -56,6 +56,10 @@ Simple digital thermometer was used to measure actual surface temperatures of th
 <img src="./img/Dummy_Load_temp_measurement_IMG_1172.jpg" width="600" height="400"/>
 </p>
 
+As a power source Yaesu FT-710 set in CW mode was used (SSB mode is not most practicle for such measurement since carrier frequency is attenuated for this modulation. It is possible to introduce a baseband tone, but it is more difficult then using cw - thanks SP5ELA for pointing this out!)
+
+We can see that transmitter power can be derived from resistive element temperature! In fact it was described by Peter VK3YE on his youtube channel :)
+
 ### Test 1: Measurement of temperature increase in Celcius per Watt of applied power
 
 The first measurement aimed to establish the temperature increase in Celcius per Watt of applied power $dt[C]/P[W]$. For each measurement point (power value), transmitter has been activated for the same duration of time $tdah$=15sec. Results has been summarized below:
