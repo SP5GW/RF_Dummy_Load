@@ -89,7 +89,13 @@ $Pmax = (dt+0.7646) / 0.3384 = 219W$
 So based on derived model, theoretical maximum power our dummy load can sustain for 15 seconds is 219W.
 
 
+### Test 2: Measurement of temperature increase in Celcius per duration given power is applied
 
+The second measurement aimed to establish the temperature increase in Celcius per time in seconds during, which given power was applied to dummy load $dt[C]/tdah[sec]$. For each measurement point (measurement duration $tdah$), transmitter power was set to 100W. Results has been summarized below:
+
+<p align="center">
+<img src="./sim/Temperature_vs_Dah_Time 2024-03-31 215705.png" width="700" height="400"/>
+</p>
 
 ## References
 
