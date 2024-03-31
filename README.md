@@ -66,7 +66,7 @@ The first measurement aimed to establish the temperature increase in Celcius per
 
 From obtained results it is clear that relation between temperature increase in Celcius per Watt of applied power is linear within applied power range of 5 to 100W and can be described by the following formula:
 
-$dt[C] = 0.3384*P[W] - 0.7646$ where $dt = tpwr - tamb$
+(1) $dt[C] = 0.3384*P[W] - 0.7646$ where $dt = tpwr - tamb$
 
 Average measured $dt/P = 0.32 [C/W]$
 
@@ -77,6 +77,17 @@ From resistor datasheet it is possible to find maximum element temperature for w
 </p>
 
 such temperature $tmax$ is equal to 100C.
+
+Based on such information we can calculate maximum power dummy load can sustain for 15sec in given ambient temperature $tamb$ (in our case 26.6C):
+
+$dt = tmax - tamb = 100 - 26.6 = 73.5C$
+
+using (1) we get: 
+
+$Pmax = (dt+0.7646) / 0.3384 = 219W$
+
+So based on derived model, theoretical maximum power our dummy load can sustain for 15 seconds is 219W.
+
 
 
 
