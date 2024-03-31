@@ -124,4 +124,5 @@ From Test 2, we know that relation between temperature increse and time during w
 ## References
 
 [1] [Resistive element datasheet](<./docs/RFP-250-50RM.pdf>)
+
 [2] Bill of Material, to be prepared
