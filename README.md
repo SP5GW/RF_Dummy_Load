@@ -59,6 +59,7 @@ Simple digital thermometer was used to measure actual surface temperatures of th
 As a power source Yaesu FT-710 set in CW mode was used (SSB mode is not most practicle for such measurement since carrier frequency is attenuated for this modulation. It is possible to introduce a baseband tone, but it is more difficult then using cw - thanks SP5ELA for pointing this out!)
 
 We can see that transmitter power can be derived from resistive element temperature! In fact it was described by Peter VK3YE on his youtube channel :)
+It was confirmed with measurements not described here that temperature increase associated with given power level and duration does not depend on carrier frequency.
 
 ### Test 1: Measurement of temperature increase in Celcius per Watt of applied power
 
