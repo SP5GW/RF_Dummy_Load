@@ -12,14 +12,7 @@
 
 Presented RF Dummy Load shows aceptable SWR level (below 1.5) in the frequency range up to 500MHz. It is capable of withstanding up to 100W of power applied over up to 30sec time interval in ambient temperature of 26C. Theoretically calculated limit was in fact about 200W in ambient temperature of 26C, but this case was never verified in practice.
 Design is based on inductance-less RFP-250 resistor manufactured by Anaren (or similar such as RFR 50-250).
-This is rather mechanical then electronics project. The main challange was to ensure proper heat dissipation and keeping connections between resistor and UC1 socket as short as possible(in order to limit parasitic inductance).
-
-
-
-<p align="center">
-<img src="./meas/SVR_Dummy_Load_2024-03-31 12-53-41.png" width="400" height="400"/>
-
-</p>
+This is rather mechanical then electronics project. The main challange was to ensure proper heat dissipation and keeping connections between resistor and UC1 socket as short as possible (in order to limit parasitic inductance).
 
 ## Performance
 
@@ -58,7 +51,7 @@ Simple digital thermometer was used to measure actual surface temperatures of th
 
 As a power source Yaesu FT-710 set in CW mode was used (SSB mode is not most practicle for such measurement since carrier frequency is attenuated for this modulation. It is possible to introduce a baseband tone, but it is more difficult then using cw - thanks SP5ELA for pointing this out!)
 
-We can see that transmitter power can be derived from resistive element temperature! In fact it was described by Peter VK3YE on his youtube channel :)
+We can see that transmitter power can be derived from resistive element temperature increase over given time period! In fact it was described by Peter VK3YE on his youtube channel :)
 It was confirmed with measurements not described here that temperature increase associated with given power level and duration does not depend on carrier frequency.
 
 ### Test 1: Measurement of temperature increase in Celcius per Watt of applied power
@@ -96,7 +89,7 @@ So based on derived model, theoretical maximum power our dummy load can sustain 
 
 ### Test 2: Measurement of temperature increase in Celcius per duration given power is applied
 
-The second measurement aimed to establish the temperature increase in Celcius per time in seconds during, which given power was applied to dummy load $dt[C]/tdah[sec]$. For each measurement point (measurement duration $tdah$), transmitter power was set to 100W. Results has been summarized below:
+The second measurement aimed to establish the temperature increase in Celcius per time in seconds during, which given power was applied to dummy load $dt[C]/tdah[sec]$. For each measurement point (measurement duration $tdah$), transmitter power was set to 100W. Results have been summarized below:
 
 <p align="center">
 <img src="./sim/Temperature_vs_Dah_Time 2024-03-31 215705.png" width="700" height="400"/>
@@ -105,6 +98,8 @@ The second measurement aimed to establish the temperature increase in Celcius pe
 From obtained results it is clear that relation between temperature increase in Celcius per time in seconds during, which 100W of power was applied to dummy load is linear within applied $tdah$ time intervals of  5 to 20 seconds and can be described by the following formula:
 
 (3) $dt[C] = 2.216 * tdah[sec] + 2.55$ where $dt = tpwr - tamb$
+
+We will assume that also for power levels below 100W for which this test has been conducted this relation is also linear.
 
 Average measured $dt/tdah = 2.37 [C/sec]$
 
