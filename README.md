@@ -115,9 +115,8 @@ From Test 2, we know that relation between temperature increse and time during w
 <img src="./sim/Derating_Full 2024-03-31 220123.png" width="700" height="400"/>
 </p>
 
-
 ## References
 
 [1] [Resistive element datasheet](<./docs/RFP-250-50RM.pdf>)
 
-[2] Bill of Material, to be prepared
+[2] [Bill of Material](<./docs/Dummy_Load_BoQ.xlsx>)
